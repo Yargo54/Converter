@@ -211,6 +211,7 @@
     background-color: #FFFFFF;
     outline: none;
     border: 1px solid #C6C6C6;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .USDIHave{
@@ -263,6 +264,7 @@
     background-color: #FFFFFF;
     outline: none;
     border: 1px solid #C6C6C6;
+    border-radius: 0px 5px 5px 0px;
 }
 
 .entryFieldHave{
@@ -331,6 +333,7 @@
     background-color: #FFFFFF;
     outline: none;
     border: 1px solid #C6C6C6;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .USDIWant{
@@ -383,6 +386,7 @@
     background-color: #FFFFFF;
     outline: none;
     border: 1px solid #C6C6C6;
+    border-radius: 0px 5px 5px 0px;
 }
 
 .entryFieldWant{
