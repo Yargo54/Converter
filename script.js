@@ -24,10 +24,6 @@ const selectWant = document.querySelector('.currencySelectionIWant');
 //Содержимое кнопки выбора
 const option = document.querySelectorAll('option');
 
-//Кнопки стрелок (№1 - вправо, №2 - влево)
-const rightArrow = document.querySelector('.rightArrow');
-const leftArrow = document.querySelector('.leftArrow');
-
 //Инпуты (№1 - левый, №2 - правый)
 const entryFieldIHave = document.querySelector('.entryFieldIHave');
 const entryFieldIWant = document.querySelector('.entryFieldIWant');
@@ -38,7 +34,6 @@ let pWant = document.querySelector('.currentRateIWant');
 
 //Кнопка swith (стрелки смены конвертации)
 let arrow = document.querySelector('.arrow');
-let arrow1 = document.querySelector('.arrow');
 
 //Элемент loading
 const loading = document.querySelector('.loading');
@@ -112,16 +107,21 @@ let changeSelect = '';
 let checkSwitch = 1;
 let checkSwitchSelect = 1;
 
+//Функция перекраски по нажатию
+function colorChange(element) {
+    element.style.color = 'white';
+    element.style.backgroundColor = '#833AE0';
+    option.forEach((element) => {
+        element.style.color = '#C6C6C6';
+        element.style.backgroundColor = '#FFFFFF';
+    })
+}
+
 //Перебор кнопок левого меню для получения нового значения from
 arrayLeft.forEach((element) => {
     element.addEventListener('click', () => {
         colorMainDelHave();
-        element.style.color = 'white';
-        element.style.backgroundColor = '#833AE0';
-        option.forEach((element) => {
-            element.style.color = '#C6C6C6';
-            element.style.backgroundColor = '#FFFFFF';
-        })
+        colorChange(element);
         from = element.innerText;
     })
 });
@@ -130,12 +130,7 @@ arrayLeft.forEach((element) => {
 arrayRight.forEach((element) => {
     element.addEventListener('click', () => {
         colorMainDelWant();
-        element.style.color = 'white';
-        element.style.backgroundColor = '#833AE0';
-        option.forEach((element) => {
-            element.style.color = '#C6C6C6';
-            element.style.backgroundColor = '#FFFFFF';
-        })
+        colorChange(element)
         to = element.innerText;
     })
 });
@@ -228,7 +223,6 @@ function switchChangeSelectWithButton () {
         checkLeft = 0;
         checkRight = 1;
         checkSwitchSelect = 0;
-        fetchRequest();
     } else if (checkLeft === 0 && checkRight === 1 && checkSwitchSelect === 0) {
         switchLeft()
         checkLeft = 1;
