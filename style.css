@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+}
+
+.head{
+    background-color: #F5F5F6;
+    height: 50px;
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.divInHeader{
+    display: flex;
+}
+
+.logoInHeader{
+    width: 89px;
+    height: 23px;
+    margin-top: 15px;
+    margin-right: 64px;
+    margin-bottom: 12px;
+    margin-left: 100px;
+}
+
+.buttonInHeader{
+    display: flex;  
+}
+
+.bank{
+    font-family: 'Roboto', sans-serif;
+    width: 37px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 20px;
+    background-color: #F5F5F6;
+    outline: none;
+    border: none;
+    color: #959BA4;
+}
+
+.busines{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 21px;
+    background-color: #F5F5F6;
+    outline: none;
+    border: none;
+    color: #959BA4;
+}
+
+.investments{
+    font-family: 'Roboto', sans-serif;
+    width: 85px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 20px;
+    background-color: #F5F5F6;
+    outline: none;
+    border: none;
+    color: #959BA4;
+}
+
+.insurance{
+    font-family: 'Roboto', sans-serif;
+    width: 88px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 22px;
+    background-color: #F5F5F6;
+    outline: none;
+    border: none;
+    color: #959BA4;
+}
+
+.mobile{
+    font-family: 'Roboto', sans-serif;
+    width: 53px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 22px;
+    background-color: #F5F5F6;
+    outline: none;
+    border: none;
+    color: #959BA4;
+}
+
+.travels{
+    font-family: 'Roboto', sans-serif;
+    width: 89px;
+    height: 19px;  
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 22px;
+    background-color: #F5F5F6;
+    outline: none;
+    border: none;
+    color: #959BA4;
+}
+
+.entertainment{
+    font-family: 'Roboto', sans-serif;
+    width: 89px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-right: 109px;
+    background-color: #F5F5F6;
+    outline: none;
+    border: none;
+    color: #959BA4;
+}
+
+.entrance{
+    font-family: 'Roboto', sans-serif;
+    width: 58px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.main{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.placeInput{
+    display: flex;
+}
+
+.h1InMain{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    width: 587px;
+    height: 39px;
+    margin-top: 56px;
+    margin-right: 312px;
+    margin-bottom: 33px;
+    margin-left: 253px;
+}
+
+.iHave{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 120px;
+    height: 28px;
+    color: #9F9F9F;
+    margin-top: 33px;
+    margin-bottom: 1px;
+    margin-left: 253px;
+}
+
+.buttonIHave{
+    display: flex;
+    width: 259px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 253px;
+}
+
+.RUBIHave{
+    font-family: 'Roboto', sans-serif;
+    width: 51px;
+    height: 28px;
+    color: #FFFFFF;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #833AE0;
+    outline: none;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.USDIHave{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+}
+
+.EURIHave{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+}
+
+.GBRIHave{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+}
+
+.currencySelectionIHave{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.entryFieldHave{
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-bottom: 348px;
+    margin-left: 253px;
+}
+
+.entryFieldIHave{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 180px;
+    height: 38px;
+    font-size: 36px;
+    margin-top: 11px;
+    margin-right: 121px;
+    margin-bottom: 15px;
+    margin-left: 11px;
+    outline: none;
+    border: none;
+}
+
+.currentRateIHave{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 155px;
+    height: 15px;
+    color: #C6C6C6;
+    margin-right: 124px;
+    margin-bottom: 5px;
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+.iWant{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 120px;
+    height: 28px;
+    color: #9F9F9F;
+    margin-top: 33px;
+    margin-right: 397px;
+    margin-bottom: 1px;   
+}
+
+.buttonIWant{
+    display: flex;
+    width: 259px;
+    height: 30px;
+    margin-right: 258px;
+    margin-bottom: 20px;
+}
+
+.RUBIWant{
+    font-family: 'Roboto', sans-serif;
+    width: 51px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.USDIWant{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #FFFFFF;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #833AE0;
+    outline: none;
+    border: 1px solid #C6C6C6;
+}
+
+.EURIWant{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+}
+
+.GBRIWant{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+}
+
+.currencySelectionIWant{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    height: 28px;
+    color: #C6C6C6;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #C6C6C6;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.entryFieldWant{
+    width: 259px;
+    height: 102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-right: 258px;
+    margin-bottom: 348px;
+}
+
+.entryFieldIWant{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 93%;
+    height: 42px;
+    font-size: 36px;
+    margin-top: 11px;
+    margin-right: 121px;
+    margin-bottom: 15px;
+    margin-left: 11px;
+    outline: none;
+    border: none;
+}
+
+.currentRateIWant{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 155px;
+    height: 15px;
+    color: #C6C6C6;
+    margin-right: 124px;
+    margin-bottom: 5px;
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+.buttonChange{
+    width: 36.85px;
+    height: 36.61px;
+    margin-top: 147px;
+    margin-right: 44px;
+    margin-bottom: 383.23px;
+    margin-left: 44px;
+}
+
+.arrow{
+    background: url("./images/Arrow.svg") no-repeat;
+    width: 41.85px;
+    height: 37.61px;
+    outline: none;
+    border: 1px solid #FFFFFF; 
+}
+
+.loading{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 99
+}
+
+.loadingText {
+    background: #FFFFFF;
+    width: 129px;
+    height: 54px;
+    padding-top: 25px;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:  auto
+}
