@@ -301,6 +301,10 @@ function fetchRequestRight() {
             .then(dat => {
                 pHave.innerHTML = `1 ${from} = ${dat.rates[to].toFixed(4)} ${to}`;
             })
+            .then(() => {
+                clearTimeout(id);
+                loading.style.display = "none";
+            })
             .catch((err) => {
                 alert(err)
             });
@@ -453,24 +457,26 @@ function convert() {
     selectWant.onchange = (() => {
         to = selectWant.value;
         fetchRequest();
-        if (checkLeft === 0 && checkRight === 1 && checkSwitchSelect === 1) {
-            arrow.addEventListener('click', () =>{
-                switchChangeSelectWithButton();
-            })
-        }
         arrow.addEventListener('click', () =>{
             switchChangeSelectWithButton();
         })
     })
 
     //Изменения в левом поле ввода
+    let id;
     entryFieldIHave.oninput = (() => {
-        countButton();
-    });
-
+        clearTimeout(id);
+        id = setTimeout(() => {
+            countButton();
+        }, 2000)
+    })
+    
     //Изменения в правом поле ввода
     entryFieldIWant.oninput = (() => {
-        fetchRequestRight();
+        clearTimeout(id)
+        id = setTimeout(() => {
+            fetchRequestRight();
+        }, 2000)
     })
 }
 
