@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+body{
+    margin: 0;
+}
+
 .head{
     background-color: #F5F5F6;
     height: 50px;
@@ -204,11 +208,11 @@
     font-family: 'Roboto', sans-serif;
     width: 51px;
     height: 28px;
-    color: #C6C6C6;
+    color: #FFFFFF;
     padding: 0;
     text-align: center;
     font-size: 12px;
-    background-color: #FFFFFF;
+    background-color: #833AE0;
     outline: none;
     border: 1px solid #C6C6C6;
     border-radius: 5px 0px 0px 5px;
@@ -279,7 +283,7 @@
 .entryFieldIHave{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    width: 124px;
+    width: 180px;
     height: 38px;
     font-size: 36px;
     margin-top: 11px;
@@ -293,7 +297,7 @@
 .currentRateIHave{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    width: 119px;
+    width: 155px;
     height: 15px;
     color: #C6C6C6;
     margin-right: 124px;
@@ -340,11 +344,11 @@
     font-family: 'Roboto', sans-serif;
     width: 50px;
     height: 28px;
-    color: #C6C6C6;
+    color: #FFFFFF;
     padding: 0;
     text-align: center;
     font-size: 12px;
-    background-color: #FFFFFF;
+    background-color: #833AE0;
     outline: none;
     border: 1px solid #C6C6C6;
 }
@@ -401,7 +405,7 @@
 .entryFieldIWant{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    width: 167px;
+    width: 93%;
     height: 42px;
     font-size: 36px;
     margin-top: 11px;
@@ -415,7 +419,7 @@
 .currentRateIWant{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    width: 119px;
+    width: 155px;
     height: 15px;
     color: #C6C6C6;
     margin-right: 124px;
@@ -433,18 +437,40 @@
     margin-left: 44px;
 }
 
-.rightArrow{
-    background: url("./images/RightArrow.svg") no-repeat;
+.arrow{
+    background: url("./images/Arrow.svg") no-repeat;
     width: 41.85px;
-    height: 22.61px;
+    height: 37.61px;
     outline: none;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFFFFF; 
 }
 
-.leftArrow{
-    background: url("./images/LeftArrow.svg") no-repeat;
-    width: 41.85px;
-    height: 22.61px;
-    outline: none;
-    border: 1px solid #FFFFFF;   
+.loading{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 99
+}
+
+.loadingText {
+    background: #FFFFFF;
+    width: 129px;
+    height: 54px;
+    padding-top: 25px;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:  auto
 }
