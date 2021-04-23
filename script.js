@@ -442,13 +442,7 @@ function convert() {
     selectHave.onchange = (() => {
         from = selectHave.value;
         fetchRequest();
-        if (checkLeft === 1 && checkRight === 0 && checkSwitchSelect === 0) {
-            arrow.addEventListener('click', () =>{
-                switchChangeSelectWithButton();
-            })
-        }
         arrow.addEventListener('click', () =>{
-            fetchRequest();
             switchChangeSelectWithButton();
         })
     })
